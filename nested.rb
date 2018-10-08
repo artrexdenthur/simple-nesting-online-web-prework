@@ -17,7 +17,7 @@ def create_programmer_hash
 
 def hopper
 	programmer_hash = create_programmer_hash
-	programmer_hash[:grace_hopper]
+	programmer_hash.fetch(:grace_hopper)
 	
 end
 
