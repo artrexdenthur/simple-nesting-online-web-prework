@@ -13,7 +13,7 @@ def prog_hash
       :known_for => "Unix",
       :languages => ["C"]
     }
- }
+  }
 
 def hopper
 	programmer_hash = 
