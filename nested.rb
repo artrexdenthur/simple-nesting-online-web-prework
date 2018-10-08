@@ -1,4 +1,7 @@
 
+def prog_hash
+  
+
 def hopper
 	programmer_hash = 
  		{
