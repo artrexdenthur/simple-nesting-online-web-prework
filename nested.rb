@@ -14,6 +14,7 @@ def create_programmer_hash
       :languages => ["C"]
     }
   }
+end
 
 def hopper
 	programmer_hash = create_programmer_hash
