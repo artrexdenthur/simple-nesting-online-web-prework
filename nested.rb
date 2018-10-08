@@ -32,7 +32,7 @@ end
 
 def dennis_ritchies_language
 	programmer_hash = create_programmer_hash
-	programmer_hash.fetch(:dennis_ritchie.fetch(:languages)[0])
+	programmer_hash.fetch(:dennis_ritchie).fetch(:languages)[0]
 end
 
 def adding_matz
