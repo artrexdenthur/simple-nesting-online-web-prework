@@ -26,13 +26,13 @@ def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
 	programmer_hash = create_programmer_hash
-	hopper.fetch(:alan_kay).fetch(:known_for)
+	programmer_hash.fetch(:alan_kay).fetch(:known_for)
 	
 end
 
 def dennis_ritchies_language
 	programmer_hash = create_programmer_hash
-	hopper.fetch(:dennis_ritchie.fetch(:languages)[0])
+	programmer_hash.fetch(:dennis_ritchie.fetch(:languages)[0])
 end
 
 def adding_matz
@@ -44,7 +44,7 @@ def adding_matz
 
 	programmer_hash = create_programmer_hash
 	
-	hopper[:yukihiro_matsumoto] = {
+	programmer_hash[:yukihiro_matsumoto] = {
 	  known_for: 'Ruby',
 	  languages: ['LISP', 'C']
 	}
